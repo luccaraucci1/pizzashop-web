@@ -1,0 +1,8 @@
+{
+  "extends": ["@rocketseat/eslint-config/react", "prettier"],
+  "plugins": ["simple-import-sort", "prettier"],
+  "rules": {
+    "simple-import-sort/imports": "error",
+    "prettier/prettier": 2
+  }
+}
